@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" id="htl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,17 +37,57 @@
     </section>
   
 
-
-
+<input type="color" id="color" onhange="colorChange">
+<input type="button" onclick="colorChange()" value="+" style="    
+   color:#eee;
+    width: 73px;
+    height: 39px;
+    background: #afabab;
+    border: 0;
+    position: absolute;
+    top: 24px;
+    right: 53px;
+    border-radius: 20px;
+    z-index: 1;
+    text-align: left;
+    padding: 0 10px;
+    font-weight: bold;
+;">
+<input type="button" onclick="textChange()" value="+" style="    
+   color:#eee;
+    width: 60px;
+    height: 39px;
+    background: #afabab;
+    border: 0;
+    position: absolute;
+    top: 24px;
+    right: 38px;
+    border-radius: 20px;
+    z-index: 1;
+    text-align: right;
+    padding: 0 10px;
+    font-weight: bold;
+;">
 
       <!-- scripts -->
       <script src="../jquery-3.6.0.min.js"></script>
       <script src="../popper.min.js"></script>
       <script src="../js/bootstrap.js"></script>
-      <script src="../js/script.js"></script>
+      <script src="../js/script.js"> </script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
         AOS.init();
+        document.body.style.backgroundColor=color.value;
+        document.body.style.color="#eee";
+        let col=document.getElementById("color");
+        function colorChange() {
+          console.log(color.value);
+        document.body.style.backgroundColor=col.value;
+        }
+        function textChange() {
+          console.log(color.value);
+        document.body.style.color=col.value;
+        }
       </script>
 
 </body>
