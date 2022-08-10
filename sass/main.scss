@@ -1,8 +1,6 @@
 
 *{
-      background: black;
-
-    color:#fff;
+   
     margin:0;
     padding:0;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -33,6 +31,17 @@
             border-radius: 10px;
             padding: 10px;
         }
+            button{
+                outline: 0;
+                border: 0;
+                background: #9b9b9b;
+                color: #fff;
+                width: 50px;
+                height: 32px;
+                position: absolute;
+                right: 95px;
+                border-radius: 12px;
+            }
     }
     .items{
         display: flex;
@@ -77,4 +86,11 @@ input[type=checkbox]{
  }
           
 
+}
+#color{
+    z-index: 5;
+    position: absolute;
+    top: 31px;
+    right: 63px;
+    width: 33px;
 }
