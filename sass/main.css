@@ -1,0 +1,66 @@
+* {
+  background: black;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.app .content p.ts {
+  margin: 35px 7px;
+  font-size: 29px;
+}
+.app .content .header {
+  margin: 59px 0;
+  font-size: 50px;
+  text-align: center;
+}
+.app .content .title {
+  background-color: none;
+}
+.app .content .title .in {
+  width: 91%;
+  margin: 0 5px;
+  outline: 0;
+  border: 0;
+  background: #dfdcdc;
+  color: #000;
+  height: 32px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.app .content .items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 19px;
+  width: 91%;
+  background: #dfdcdc;
+  color: #000;
+  height: 32px;
+  border-radius: 10px;
+  position: relative;
+}
+.app .content .items .p1, .app .content .items .tit {
+  background: #dfdcdc;
+}
+.app .content .items .tit {
+  padding: 0 6px;
+  color: #000;
+}
+.app .content .items i {
+  color: #000;
+  background: none;
+  padding: 7px;
+  font-size: 19px;
+}
+.app .content .items span {
+  position: absolute;
+  width: 15%;
+  height: 3px;
+  background: #888;
+  top: 56%;
+}
+.app .content .items input[type=checkbox] {
+  margin: 10px 6px;
+}/*# sourceMappingURL=main.css.map */
