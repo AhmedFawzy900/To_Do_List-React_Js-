@@ -1,6 +1,4 @@
 * {
-  background: black;
-  color: #fff;
   margin: 0;
   padding: 0;
   font-family: "Oleo Script Swash Caps", cursive;
@@ -28,6 +26,17 @@
   height: 32px;
   border-radius: 10px;
   padding: 10px;
+}
+.app .content .title button {
+  outline: 0;
+  border: 0;
+  background: #9b9b9b;
+  color: #fff;
+  width: 50px;
+  height: 32px;
+  position: absolute;
+  right: 95px;
+  border-radius: 12px;
 }
 .app .content .items {
   display: flex;
@@ -63,4 +72,12 @@
 }
 .app .content .items input[type=checkbox] {
   margin: 10px 6px;
+}
+
+#color {
+  z-index: 5;
+  position: absolute;
+  top: 31px;
+  right: 63px;
+  width: 33px;
 }/*# sourceMappingURL=main.css.map */
