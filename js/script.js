@@ -161,6 +161,7 @@ var Title = /*#__PURE__*/function (_React$Component3) {
         type: "text",
         onChange: this.props.changeTitle
       }), /*#__PURE__*/React.createElement("button", {
+        "class": "button",
         onClick: this.props.saveData
       }, "Add"));
     }
@@ -218,4 +219,14 @@ var Item = /*#__PURE__*/function (_React$Component4) {
 }(React.Component); // render
 
 
-ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("render"));
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("render")); // document.body.style.backgroundColor=color.value;
+// let colR=document.getElementById("color");
+// let AddD=document.getElementById("add");
+// function colorChange() {
+//   console.log(color.value);
+// document.body.style.backgroundColor=colR.value;
+// }
+// function textChange() {
+//   console.log(color.value);
+// document.body.style.color=colR.value;
+// document.AddD.style.color=colR.value;}
